@@ -192,21 +192,6 @@ def get_strikes_or_ball(user_input_number, random_number):
         else:
             if u in random_number:
                 result[1] += 1
-    # result = []
-    # if random_number == user_input_number:
-    #     result = [3, 0]
-
-    # strikes = 0
-    # ball = 0
-
-    # for number in user_input_number:
-    #     if (number in random_number):
-    #         if user_input_number.index(number) is random_number.index(number):
-    #             strikes += 1
-    #         else:
-    #             ball += 1
-    # result = [strikes, ball]
-
     # ==================================
     return result
 
