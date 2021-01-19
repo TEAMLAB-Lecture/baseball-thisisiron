@@ -231,3 +231,15 @@ class TestBaseballGame(unittest.TestCase):
                     ball += 1
         result = [strikes, ball]
         return result
+
+
+if __name__ == '__main__':
+    TestBaseballGame().test_get_not_duplicated_three_digit_number()
+    TestBaseballGame().test_get_strikes_or_ball()
+    TestBaseballGame().test_is_between_100_and_999()
+    TestBaseballGame().test_is_digit()
+    TestBaseballGame().test_is_duplicated_number()
+    TestBaseballGame().test_is_no()
+    TestBaseballGame().test_is_yes()
+    TestBaseballGame().test_is_validated_number()
+    TestBaseballGame().test_main()
